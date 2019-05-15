@@ -11,6 +11,7 @@
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>.</sourceRootElem>
+                <sourceRootElem>../OpenCV3.0.0/arm-obj_rel</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

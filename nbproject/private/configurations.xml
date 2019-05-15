@@ -254,8 +254,6 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
-        <gdb_signals>
-        </gdb_signals>
         <gdb_options>
           <DebugOptions>
             <option name="symbol_file" value="./app_host"/>
@@ -322,7 +320,8 @@
         </runcommandpicklist>
         <runcommand>make run</runcommand>
         <rundir></rundir>
-        <buildfirst>false</buildfirst>
+        <buildfirst>true</buildfirst>
+        <console-type>1</console-type>
         <terminal-type>0</terminal-type>
         <remove-instrumentation>0</remove-instrumentation>
         <environment>

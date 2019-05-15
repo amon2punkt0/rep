@@ -1,6 +1,440 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="arm-obj_rel"
+                   displayName="arm-obj_rel"
+                   projectFiles="true"
+                   root="../OpenCV3.0.0/arm-obj_rel">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <logicalFolder name="opencv" displayName="opencv" projectFiles="true">
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/cv.h</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/cv.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/cvaux.h</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/cvaux.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/cvwimage.h</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/cxcore.h</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/cxcore.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/cxeigen.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/cxmisc.h</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/highgui.h</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv/ml.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="opencv2" displayName="opencv2" projectFiles="true">
+          <logicalFolder name="bioinspired" displayName="bioinspired" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/bioinspired/bioinspired.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/bioinspired/retina.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/bioinspired/retinafasttonemapping.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/bioinspired/transientareassegmentationmodule.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="calib3d" displayName="calib3d" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/calib3d/calib3d.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/calib3d/calib3d_c.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="core" displayName="core" projectFiles="true">
+            <logicalFolder name="cuda" displayName="cuda" projectFiles="true">
+              <logicalFolder name="detail" displayName="detail" projectFiles="true">
+                <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/detail/color_detail.hpp</itemPath>
+                <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/detail/reduce.hpp</itemPath>
+                <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/detail/reduce_key_val.hpp</itemPath>
+                <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/detail/transform_detail.hpp</itemPath>
+                <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/detail/type_traits_detail.hpp</itemPath>
+                <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/detail/vec_distance_detail.hpp</itemPath>
+              </logicalFolder>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/block.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/border_interpolate.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/color.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/common.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/datamov_utils.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/dynamic_smem.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/emulation.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/filters.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/funcattrib.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/functional.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/limits.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/reduce.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/saturate_cast.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/scan.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/simd_functions.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/transform.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/type_traits.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/utility.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/vec_distance.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/vec_math.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/vec_traits.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/warp.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/warp_reduce.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda/warp_shuffle.hpp</itemPath>
+            </logicalFolder>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/affine.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/base.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/bufferpool.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/core.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/core_c.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda.inl.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda_stream_accessor.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cuda_types.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cvdef.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cvstd.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/cvstd.inl.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/directx.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/eigen.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/ippasync.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/mat.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/mat.inl.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/matx.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/ocl.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/ocl_genbase.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/opengl.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/operations.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/optim.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/persistence.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/private.cuda.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/private.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/ptr.inl.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/sse_utils.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/traits.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/types.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/types_c.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/utility.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/version.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core/wimage.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="cvv" displayName="cvv" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/cvv/call_meta_data.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/cvv/cvv.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/cvv/debug_mode.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/cvv/dmatch.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/cvv/filter.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/cvv/final_show.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/cvv/show_image.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="datasets" displayName="datasets" projectFiles="true">
+            <logicalFolder name="tinyxml2" displayName="tinyxml2" projectFiles="true">
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/tinyxml2/tinyxml2.h</itemPath>
+            </logicalFolder>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/ar_hmdb.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/ar_sports.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/dataset.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/fr_adience.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/fr_lfw.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/gr_chalearn.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/gr_skig.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/hpe_humaneva.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/hpe_parse.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/ir_affine.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/ir_robot.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/is_bsds.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/is_weizmann.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/msm_epfl.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/msm_middlebury.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/or_imagenet.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/or_mnist.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/or_pascal.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/or_sun.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/pd_caltech.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/pd_inria.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/slam_kitti.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/slam_tumindoor.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/tr_chars.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/tr_svt.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/datasets/util.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="face" displayName="face" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/face/facerec.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="features2d" displayName="features2d" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/features2d/features2d.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="flann" displayName="flann" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/all_indices.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/allocator.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/any.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/autotuned_index.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/composite_index.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/config.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/defines.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/dist.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/dummy.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/dynamic_bitset.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/flann.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/flann_base.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/general.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/ground_truth.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/hdf5.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/heap.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/hierarchical_clustering_index.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/index_testing.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/kdtree_index.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/kdtree_single_index.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/kmeans_index.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/linear_index.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/logger.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/lsh_index.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/lsh_table.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/matrix.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/miniflann.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/nn_index.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/object_factory.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/params.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/random.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/result_set.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/sampling.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/saving.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/simplex_downhill.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann/timer.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="hal" displayName="hal" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/hal/defs.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/hal/intrin.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/hal/intrin_cpp.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/hal/intrin_neon.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/hal/intrin_sse.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="highgui" displayName="highgui" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/highgui/highgui.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/highgui/highgui_c.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="imgcodecs" displayName="imgcodecs" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/imgcodecs/imgcodecs.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/imgcodecs/imgcodecs_c.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/imgcodecs/ios.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="imgproc" displayName="imgproc" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/imgproc/imgproc.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/imgproc/imgproc_c.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/imgproc/types_c.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="line_descriptor"
+                         displayName="line_descriptor"
+                         projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/line_descriptor/descriptor.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="matlab" displayName="matlab" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/matlab/bridge.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/matlab/map.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/matlab/mxarray.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/matlab/transpose.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="ml" displayName="ml" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/ml/ml.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="objdetect" displayName="objdetect" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/objdetect/detection_based_tracker.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/objdetect/objdetect.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/objdetect/objdetect_c.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="optflow" displayName="optflow" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/optflow/motempl.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="photo" displayName="photo" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/photo/cuda.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/photo/photo.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/photo/photo_c.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="reg" displayName="reg" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/map.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mapaffine.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mapper.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mappergradaffine.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mappergradeuclid.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mappergradproj.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mappergradshift.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mappergradsimilar.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mapperpyramid.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mapprojec.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/reg/mapshift.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="rgbd" displayName="rgbd" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/rgbd/linemod.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="saliency" displayName="saliency" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/saliency/saliencyBaseClasses.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/saliency/saliencySpecializedClasses.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="shape" displayName="shape" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/shape/emdL1.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/shape/hist_cost.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/shape/shape.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/shape/shape_distance.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/shape/shape_transformer.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="stereo" displayName="stereo" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stereo/stereo.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="stitching" displayName="stitching" projectFiles="true">
+            <logicalFolder name="detail" displayName="detail" projectFiles="true">
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/autocalib.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/blenders.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/camera.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/exposure_compensate.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/matchers.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/motion_estimators.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/seam_finders.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/timelapsers.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/util.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/util_inl.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/warpers.hpp</itemPath>
+              <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/detail/warpers_inl.hpp</itemPath>
+            </logicalFolder>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching/warpers.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="superres" displayName="superres" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/superres/optical_flow.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="surface_matching"
+                         displayName="surface_matching"
+                         projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/surface_matching/icp.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/surface_matching/pose_3d.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/surface_matching/ppf_helpers.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/surface_matching/ppf_match_3d.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/surface_matching/t_hash_int.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="text" displayName="text" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/text/erfilter.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/text/ocr.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="tracking" displayName="tracking" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/tracking/feature.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/tracking/onlineBoosting.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/tracking/onlineMIL.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/tracking/tldDataset.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/tracking/tracker.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/tracking/tracking.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="video" displayName="video" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/video/background_segm.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/video/tracking.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/video/tracking_c.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/video/video.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="videoio" displayName="videoio" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videoio/cap_ios.h</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videoio/videoio.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videoio/videoio_c.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="videostab" displayName="videostab" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/deblurring.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/fast_marching.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/fast_marching_inl.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/frame_source.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/global_motion.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/inpainting.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/log.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/motion_core.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/motion_stabilizing.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/optical_flow.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/outlier_rejection.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/ring_buffer.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/stabilizer.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab/wobble_suppression.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="xfeatures2d" displayName="xfeatures2d" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/xfeatures2d/cuda.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/xfeatures2d/nonfree.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="ximgproc" displayName="ximgproc" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/ximgproc/disparity_filter.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/ximgproc/edge_filter.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/ximgproc/seeds.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/ximgproc/structured_edge_detection.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="xobjdetect" displayName="xobjdetect" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/xobjdetect/private.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="xphoto" displayName="xphoto" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/xphoto/dct_image_denoising.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/xphoto/inpainting.hpp</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/xphoto/white_balance.hpp</itemPath>
+          </logicalFolder>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/adas.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/bgsegm.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/bioinspired.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/calib3d.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/ccalib.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/contrib_world.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/core.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/cvconfig.h</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/cvv.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/face.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/features2d.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/flann.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/hal.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/highgui.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/imgcodecs.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/imgproc.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/latentsvm.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/line_descriptor.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/ml.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/objdetect.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/opencv.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/opencv_modules.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/optflow.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/photo.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/rgbd.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/saliency.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/shape.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stereo.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/stitching.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/superres.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/surface_matching.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/text.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/tracking.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/video.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videoio.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/videostab.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/xfeatures2d.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/ximgproc.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/xobjdetect.hpp</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/include/opencv2/xphoto.hpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="lib" displayName="lib" projectFiles="true">
+        <logicalFolder name="pkgconfig" displayName="pkgconfig" projectFiles="true">
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/lib/pkgconfig/opencv.pc</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="share" displayName="share" projectFiles="true">
+        <logicalFolder name="OpenCV" displayName="OpenCV" projectFiles="true">
+          <logicalFolder name="3rdparty" displayName="3rdparty" projectFiles="true">
+            <logicalFolder name="lib" displayName="lib" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="haarcascades"
+                         displayName="haarcascades"
+                         projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_eye.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_eye_tree_eyeglasses.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_frontalcatface.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_frontalcatface_extended.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_frontalface_alt2.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_frontalface_alt_tree.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_fullbody.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_lefteye_2splits.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_licence_plate_rus_16stages.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_lowerbody.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_profileface.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_righteye_2splits.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_russian_plate_number.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_smile.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/haarcascades/haarcascade_upperbody.xml</itemPath>
+          </logicalFolder>
+          <logicalFolder name="lbpcascades" displayName="lbpcascades" projectFiles="true">
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/lbpcascades/lbpcascade_frontalcatface.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/lbpcascades/lbpcascade_frontalface.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/lbpcascades/lbpcascade_profileface.xml</itemPath>
+            <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/lbpcascades/lbpcascade_silverware.xml</itemPath>
+          </logicalFolder>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/OpenCVConfig-version.cmake</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/OpenCVConfig.cmake</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/OpenCVModules-release.cmake</itemPath>
+          <itemPath>../OpenCV3.0.0/arm-obj_rel/share/OpenCV/OpenCVModules.cmake</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
     <logicalFolder name="pi" displayName="pi" projectFiles="true" root="..">
       <logicalFolder name="image_proc_agent"
                      displayName="image_proc_agent"
@@ -219,6 +653,7 @@
   <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
   <sourceRootList>
     <Elem>.</Elem>
+    <Elem>../OpenCV3.0.0/arm-obj_rel</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -389,8 +824,8 @@
         <ccTool>
           <incDir>
             <pElem>oscar/include</pElem>
-            <pElem>../../OpenCV3.0.0/linux-obj_rel/include</pElem>
-            <pElem>../../OpenCV3.0.0/linux-obj_rel/include/opencv2</pElem>
+            <pElem>../OpenCV3.0.0/linux-obj_rel/include</pElem>
+            <pElem>../OpenCV3.0.0/linux-obj_rel/include/opencv2</pElem>
           </incDir>
           <preprocessorList>
             <Elem>OSC_HOST</Elem>
@@ -425,8 +860,8 @@
         <ccTool>
           <incDir>
             <pElem>oscar/include</pElem>
-            <pElem>../../OpenCV3.0.0/linux-obj_rel/include</pElem>
-            <pElem>../../OpenCV3.0.0/linux-obj_rel/include/opencv2</pElem>
+            <pElem>../OpenCV3.0.0/linux-obj_rel/include</pElem>
+            <pElem>../OpenCV3.0.0/linux-obj_rel/include/opencv2</pElem>
           </incDir>
           <preprocessorList>
             <Elem>OSC_HOST</Elem>
