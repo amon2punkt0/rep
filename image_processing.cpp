@@ -43,6 +43,14 @@ int CImageProcessor::DoProcess(cv::Mat* image) {
         }
         
         if (mPrevImage.size() != cv::Size()){
+            
+            
+            //ActImageDx = imfilter(double(Image), DX)
+            
+            
+            
+            
+            
             cv::Mat diffImage; //create variable difference image
             
             double alpha = 0.9;  //factor for background average
@@ -97,17 +105,14 @@ int CImageProcessor::DoProcess(cv::Mat* image) {
                 cv::Moments moment = cv::moments(contours[idx]);
                 double cx = moment.m10 / moment.m00;
                 double cy = moment.m01 / moment.m00;
-                cv::Point2d cent(cx, cy);
-                cv::circle(resultImage, cent, 5, cv::Scalar(128, 0, 0),-1);
-                //to draw counter to index idx in image
+                
                 
                 if(area > 600){
+                    cv::Point2d cent(cx, cy);
+                    cv::circle(resultImage, cent, 5, cv::Scalar(128, 0, 0),-1);
                     cv::drawContours(resultImage, contours, idx, cv::Scalar(255), 1, 8);
-                    //char* text = "";
-                    //char* pt1 = "region ";
                     char no[20];
                     sprintf(no, "region = %d", idx2);
-                    //string text = "region " + ": ";
                     cv::rectangle(resultImage, rect, cv::Scalar(255,255,0));
                     cv::putText(resultImage, no, cv::Point((int)cx,(int)cy), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255,0,255), 1);
                     printf("region %d: area = %f, cm = (%8.2f, %8.2f)\n", idx2, area, cx, cy);
